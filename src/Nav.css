@@ -1,0 +1,153 @@
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+ 
+  .form-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+
+  .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input,
+  select {
+    width: 90%; 
+    padding: 14px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    background: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  select {
+    width: 95%;
+  }
+  
+  input:focus,
+  select:focus {
+    background: #ffffff;
+    border: 2px solid #555;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+ 
+  button {
+    width: 93%; 
+    padding: 14px;
+    margin-top: 15px;
+    background: #276b9b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background: #1e567e;
+    transform: scale(1.05);
+  }
+  
+
+  button.delete {
+    background: #d9534f;
+  }
+  
+  button.delete:hover {
+    background: #a71d2a;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  ul li button {
+    width: auto;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #eae6e6;
+    padding: 12px 18px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ece6e6;
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 500px) {
+    .form-container {
+      max-width: 100%;
+      padding: 25px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    input {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    ul li {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
